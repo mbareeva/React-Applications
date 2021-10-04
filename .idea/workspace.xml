@@ -1,31 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5f2fbc7-ca3e-4bfb-ac8e-c26099249b17" name="Changes" comment="" />
+    <list default="true" id="b5f2fbc7-ca3e-4bfb-ac8e-c26099249b17" name="Changes" comment="food-order app">
+      <change afterPath="$PROJECT_DIR$/food-order/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/assets/meals.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Cart/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Cart/Cart.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Cart/CartIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Layout/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Layout/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Layout/HeaderCartButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Layout/HeaderCartButton.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Meals/AvailableMeals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Meals/AvailableMeals.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Meals/Meal/MealItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Meals/Meal/MealItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Meals/Meal/MealItemForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Meals/Meal/MealItemForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Meals/Meals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Meals/MealsSummary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/Meals/MealsSummary.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/UI/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/UI/Card.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/UI/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/UI/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/UI/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/components/UI/Modal.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-order/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/forms/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/ansi-html" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/ansi-html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/atob" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/atob" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/autoprefixer" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/autoprefixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/babylon" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/babylon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/css-blank-pseudo" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/css-blank-pseudo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/css-has-pseudo" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/css-has-pseudo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/css-prefers-color-scheme" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/css-prefers-color-scheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/cssesc" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/cssesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/detect" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/detect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/detect-port" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/detect-port" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/errno" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/errno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/escodegen" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/escodegen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/esgenerate" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/esgenerate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/eslint" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/eslint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/esparse" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/esparse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/esvalidate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/he" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/he" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/html-minifier-terser" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/html-minifier-terser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/import-local-fixture" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/import-local-fixture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/is-ci" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/is-ci" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/is-docker" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/is-docker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/jest" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/jest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/jest-runtime" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/jest-runtime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/js-yaml" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/js-yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/loose-envify" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/loose-envify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/lz-string" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/lz-string" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/miller-rabin" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/miller-rabin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/multicast-dns" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/multicast-dns" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/nanoid" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/nanoid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/node-which" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/node-which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/parser" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/parser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/react-scripts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/react-scripts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/regjsparser" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/regjsparser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/rollup" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/rollup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/sane" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/sane" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/sha.js" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/sha.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/svgo" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/svgo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/terser" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/terser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/tsc" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/tsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/tsserver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/tsserver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/watch" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/watch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/webpack" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/webpack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.bin/webpack-dev-server" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.bin/webpack-dev-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/012dfbcde92259da87c19d80e5792ffd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/03ebef1f012b9ed4be8c3305cf6b9273.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/0c3c8292725c7150d1df98ce36ede6fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/0e1eb00b2d553623b9ae3e4999f14973.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/0ee00deb4dae7f9159da36825811835b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/0fd0302725b0ad4963e2ba0709da041a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/10029a462177f44e67b9244d43372d59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/10ec1dfcb51e73927241b66444e5a01d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/1765c68d83b85e1b4d31edc5aff7fe52.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/1dc6cf7fe2f46e9cbb22ff9ad7389425.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/1fc9708654d5822a1ff4ff586d58b41d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/22afc5bb0e8fcc396af80929f3c11255.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/243684306c1d11046cd23a7b2f2a1747.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/2603b2b84e203cc038cb606af54ddb47.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/3cd716f565405600186e719835ab7382.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/48a0fe086f356715cf2469e0afe858a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/4a3c33740ac3cd237524fc88abaa4714.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/4ac7bce35fb602e63c74b6ae297ac869.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/4b5893f35343c1c67aa5e8d6bb92d365.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/4e40d9c19b78b5b119ba47a2fb13a273.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/5a1ec1ca2ca1f979f3991b2f1571a875.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/5e38ea51fc4e3c92d5495240ac738f26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/6590b24940a1e1f7e27e8c9987dd865b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/6bf504696002cc3cc4f54a28ffcd0050.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/6e2bc2685ecf6d656e41bfb7ebd55207.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/740b4aedf550030a1dadc695ccfc8de5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/741951307ce3c8d9ade49d7fb60489fc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/7a0ebf6846748b61c0681e1867ad53b2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/7b7115d7159f93390e553e5d55b924e2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/7d9ac781efd96f5106534546056e0adb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/7da2e7ca590c52d729f73a51327e6182.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/83e146da36a1b6fafa53949365d846c7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/87384cc9457e29f46f82f76174db8276.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/891b6d592c675d6a0cc9e6f95c3941b3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/897e7620e898fb3e09883dd9f9ba0b04.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/8bb7e2072aba50f1baf811d18493a33b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/91ce634cb0b209cf33813a4c6abada63.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/964ea33747f47b08e31cb09ad609103d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/994d12596c0f9df7ea0968683f30a927.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/9bd920df78a67363a980a69b0af8d8bc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/9d5d54451ecf428dcefe7ff50623e87f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/9fa26c2aad44e18bc04829bc94bbcd15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/a1776b39003881321038bc2f2e5bec4c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/aaec9325ae5b2eca82d20ada4e5f4a38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/b17377336aaf9030f0acf1f0b67b0425.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/b395cb826ea3ab73e29495f9e9bf1914.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/b9e564473d8e3e0875bd3b3c52457a24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/bb260fa3ff74978b37924ded98748337.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/bbd3d122d6bb7e9ac0f7cf201965a2c0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/bbebc4a7c420e6a8a51d88ac5cdb0bad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/bc6903cba40eb5ff893d4e0cbda3e771.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/bfe81d6ec0b8e437d4b1a7b76cf2ffe2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/ca78551a2c7b61dfd5b3313526b4873d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/cca169dc42b4118c5639775d976090af.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/d0660198d2be5a95cb014abd7bec2aff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/d251427e62c0eb706dc1846d75c81c61.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/d38815797862a75cf6bebd652fb07caa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/d68c5fc1c8d0df8ca436336d482e950f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/db7c55e8d53c880c871c0412321c8df6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/dffffa38347ab0c98ad99ecddbabbd84.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/e0699eb130c4c8cde5dae1ebeda78a4c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/e7599f0931066954a99e97374aef544e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/e7cab9894a4409750e3aafb9ed0755d5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/ebdbfbe4257d3509e293fb3110b48e07.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/ec53356f97bd7afded014e63c421af26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/ee7450951fd5804055ff16bf0d14c45f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/f27ca48627b8ab0eaa340c401afa2e04.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/f82e4094e1425fc155713e6b43e7b887.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/f9ebef4aa1fae064d9c775fb16bf5023.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/fda15b27461bb4111807eb4770218668.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.cache/babel-loader/ff541d3376c299511d4813fb6c3c5c3f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/@babel/core/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/@babel/core/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/@babel/helper-compilation-targets/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/@babel/helper-compilation-targets/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/@babel/helper-define-polyfill-provider/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/@babel/helper-define-polyfill-provider/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/@babel/plugin-transform-runtime/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/@babel/plugin-transform-runtime/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/@babel/preset-env/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/@babel/preset-env/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/@npmcli/fs/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/@npmcli/fs/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/@npmcli/move-file/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/@npmcli/move-file/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/@typescript-eslint/typescript-estree/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/@typescript-eslint/typescript-estree/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/babel-loader/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/babel-loader/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/babel-plugin-polyfill-corejs2/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/babel-plugin-polyfill-corejs2/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/babel-preset-react-app/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/babel-preset-react-app/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/cacache/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/cacache/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/copy-concurrently/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/copy-concurrently/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/core-js-compat/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/core-js-compat/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/css-has-pseudo/node_modules/.bin/cssesc" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/css-has-pseudo/node_modules/.bin/cssesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/default-gateway/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/default-gateway/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/default-gateway/node_modules/.bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/default-gateway/node_modules/.bin/which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/del/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/del/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/eslint-plugin-react/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/eslint-plugin-react/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/fork-ts-checker-webpack-plugin/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/fork-ts-checker-webpack-plugin/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/global-prefix/node_modules/.bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/global-prefix/node_modules/.bin/which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/html-webpack-plugin/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/html-webpack-plugin/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/istanbul-lib-instrument/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/istanbul-lib-instrument/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/istanbul-lib-report/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/istanbul-lib-report/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/jsdom/node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/jsdom/node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/make-dir/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/make-dir/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/mini-css-extract-plugin/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/mini-css-extract-plugin/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/move-concurrently/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/move-concurrently/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/normalize-package-data/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/normalize-package-data/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/postcss-custom-selectors/node_modules/.bin/cssesc" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/postcss-custom-selectors/node_modules/.bin/cssesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/postcss-dir-pseudo-class/node_modules/.bin/cssesc" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/postcss-dir-pseudo-class/node_modules/.bin/cssesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/postcss-loader/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/postcss-loader/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/postcss-pseudo-class-any-link/node_modules/.bin/cssesc" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/postcss-pseudo-class-any-link/node_modules/.bin/cssesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/react-dev-utils/node_modules/.bin/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/react-dev-utils/node_modules/.bin/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/react-scripts/node_modules/@babel/core/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/react-scripts/node_modules/@babel/core/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/regjsparser/node_modules/.bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/regjsparser/node_modules/.bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/resolve-url-loader/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/resolve-url-loader/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/sane/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/sane/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/sane/node_modules/.bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/sane/node_modules/.bin/which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/sass-loader/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/sass-loader/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/sass-loader/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/sass-loader/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/sockjs/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/sockjs/node_modules/.bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/tar/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/tar/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/terser-webpack-plugin/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/terser-webpack-plugin/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/terser-webpack-plugin/node_modules/.bin/terser" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/terser-webpack-plugin/node_modules/.bin/terser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/tsconfig-paths/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/tsconfig-paths/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/base.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/asyncify.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/basic.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/source/basic.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/entries.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/entry.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/fixed-length-array.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/iterable-element.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/literal-union.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/source/literal-union.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/merge.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/source/merge.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/mutable.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/source/mutable.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/package-json.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/source/package-json.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/promise-value.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/source/promise-value.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/require-at-least-one.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/source/require-at-least-one.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/set-optional.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/source/set-optional.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/set-required.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/source/set-required.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/set-return-type.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/simplify.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/tsconfig-json.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/source/tsconfig-json.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/typed-array.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/union-to-intersection.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/type-fest/source/union-to-intersection.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/source/utilities.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/ts41/camel-case.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/ts41/delimiter-case.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/ts41/get.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/ts41/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/ts41/kebab-case.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/ts41/pascal-case.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/ts41/snake-case.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/type-fest/ts41/utilities.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/fse.node" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/fse.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/webpack-dev-middleware/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/webpack-dev-middleware/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/webpack-dev-server/node_modules/.bin/import-local-fixture" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/webpack-dev-server/node_modules/.bin/import-local-fixture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/webpack-dev-server/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/webpack-dev-server/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/webpack-dev-server/node_modules/fsevents/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/webpack-dev-server/node_modules/fsevents/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/webpack-dev-server/node_modules/fsevents/build/Release/fse.node" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/webpack-dev-server/node_modules/fsevents/build/Release/fse.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/webpack-dev-server/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/webpack-dev-server/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/webpack-log/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/webpack-log/node_modules/.bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/webpack/node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/webpack/node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/webpack/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/webpack/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/node_modules/webpack/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/forms/node_modules/webpack/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/forms/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1yudlx7y0xQIFtvN7OyEjL7ZKg4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/food-order" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/food-order" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/food-order/src/components/Layout" />
+      <recent name="$PROJECT_DIR$/food-order/src/assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -37,11 +314,27 @@
       <option name="presentableId" value="Default" />
       <updated>1633105561898</updated>
       <workItem from="1633105563568" duration="41000" />
-      <workItem from="1633105624188" duration="1114000" />
+      <workItem from="1633105624188" duration="25490000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="food-order app" />
+    <option name="LAST_COMMIT_MESSAGE" value="food-order app" />
   </component>
 </project>
